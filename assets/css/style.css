@@ -1,0 +1,463 @@
+.whatsapp-voral{
+    max-width: 250px;
+    padding-bottom: 20px;
+}
+
+.whatsapp-voral .txt-parrafo{
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+    font-size: 12px;
+    color: #7d7d7d;
+    line-height: 16px;
+    font-weight: 300;
+}
+
+.whatsapp-voral .hide-box-adviser{
+    display: none;
+}
+
+.whatsapp-voral .row-voral{
+    margin-top: 5px;
+    display: flex;
+    padding: 10px 0px 20px 10px;
+    border-bottom: 1px solid #e8e8e8;
+    background: #f8f8f8;
+    border-left:  3px solid #26ba81;
+    line-height: 0px;
+    color:#404040;
+}
+
+.whatsapp-voral .row-voral:hover{
+    background-color: #efefef;
+}
+
+.whatsapp-voral .adviser-not-found{
+    text-align: left;
+    font-size: 12px;
+    line-height: 16px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp-voral .select-service label{
+    display: grid;
+    color: #65c702;
+    font-size: 12px;
+}
+
+.whatsapp-voral .btn-adviser-cotiza:disabled{
+  background: #bdbdbd1c;
+  cursor: not-allowed;
+  border: 2px solid #38d05057;
+  color: #959595;
+}
+
+.whatsapp-voral .btn-adviser-cotiza{
+    background-color: transparent;
+    border: 2px solid #65c702;
+    color: #000;
+    padding: 10px;
+    width: 80%;
+    cursor: pointer;
+    font-size: 20px;
+    margin: auto;
+    display: block;
+    border-radius:50px;
+}
+.whatsapp-voral .btn-adviser-cotiza:hover{
+    background-color: #65c702;
+    color:#fff;
+}
+
+.whatsapp-voral .select-adviser-option{
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    color: #595959;
+    height: 50px;
+    font-weight: 300;
+}
+
+.whatsapp-voral .phone-call{
+    background-image: url(../image/phone-call.png);
+    background-size: cover;
+    width: 27px;
+    height: 27px;
+    display: block;
+    cursor: pointer;
+    margin-top: 7px;
+}
+.whatsapp-voral .select-adviser .title{
+    font-size: 14px;
+    color:#53a153;
+    margin:0px;
+    padding: 0px;
+    font-weight: 300;
+}
+
+.whatsapp-voral .select-adviser .sub-title{
+    font-size: 11px;
+    color: #595959;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 300;
+}
+
+.whatsapp-voral .select-adviser .column-voral-1{
+    width: 80%;
+}
+
+.whatsapp-voral .select-adviser .column-voral-2{
+    width: 20%;
+}
+
+.whatsapp-voral .phone-call:hover{
+    width: 30px;
+    height: 30px;
+}
+
+.whatsapp-voral .title-adviser{
+    font-size: 14px;
+    color: #6c6c6c;
+    text-align: center;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.loader-adviser{
+    width: 250px;
+    margin: auto;
+    display: none;
+}
+
+.lds-ripple-loader {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    z-index: 9999;
+}
+.lds-ripple-loader div {
+    position: absolute;
+    border: 4px solid rgba(173, 175, 173, 0.79);
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple-loader div:nth-child(2) {
+    animation-delay: -0.5s;
+}
+
+.woocommerce table.shop_attributes{
+    font-size: 12px;
+    color: #575757;
+    margin-top: 20px;
+}
+
+.adviser-table-products{
+  font-size:14px;
+  color:#535353;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top:30px;
+  margin-bottom: 30px;
+  font-weight: 300;
+  max-width: 450px;
+  text-transform: capitalize;
+}
+
+.adviser-table-products td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+.adviser-table-products tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+
+.adviser-table-products .column-1{
+    width: 180px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.adviser-table-products .column-2{
+    width: 130px;
+    font-weight:700;
+}
+
+.adviser-table-products .button_action{
+    padding: 5px 20px;
+    background: transparent;
+    border: 2px solid #62c971;
+    border-radius: 100px;
+    color: #575757;
+    font-weight: 700;
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 80%;
+}
+
+.adviser-table-products .button_action:hover{
+    background: rgb(38, 176, 59);
+    color:#fff;
+}
+
+.woocommerce div.product span.price{
+    font-size: 14px!important;
+    line-height: 16px !important;
+}
+
+.scroll-adviser-products{
+    overflow-y:auto;
+    max-height:600px;
+    width: 100%;
+}
+
+
+.scroll-adviser-products::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+    display: block;  /* Ocultar scroll */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+.scroll-adviser-products::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+.scroll-adviser-products::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+.scroll-adviser-products::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+.scroll-adviser-products::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+.scroll-adviser-productsr::-webkit-scrollbar-track:hover,
+.scroll-adviser-products::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+
+
+@keyframes lds-ripple {
+    0% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+        width: 72px;
+        height: 72px;
+        opacity: 0;
+    }
+}
+
+/*Modal Advise Client*/
+
+.support-product-chat{
+    display:none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 999999999;
+    top: 0px;
+    right: 0px;
+}
+
+
+.support-product-chat .img-product{
+    width:125px;
+}
+
+.support-product-chat .img-product img{
+    height: auto;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 4px;
+    margin-left: -10px;
+}
+
+.support-product-chat .desc-product{
+    width:325px;
+}
+
+.support-product-chat .header{
+    background: rgb(38,176,59) none repeat scroll 0% 0%;
+    padding: 1px 20px;
+    border-radius: 4px 4px 0px 0px;
+    color: #fff;
+     padding-bottom:15px;
+}
+
+.support-product-chat .header h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color:#0c5717;
+ }
+
+
+.support-product-chat .header p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+
+
+.support-product-chat .modal-shadow{
+    background: #dddddd38;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+
+
+.support-product-chat .chat-whatsapp-advise{
+    margin: auto;
+    width: 350px;
+    top: 50px;
+    display: block;
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.support-product-chat .close-modal-support{
+    background: #55c465;
+    color: #fff;
+    font-size: 22px;
+    padding: 14px 12px;
+    text-align: center;
+    border-radius: 40px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    cursor: pointer;
+    line-height: 10px;
+}
+
+
+.support-product-chat .whatsapp-voral{
+    margin: auto;
+}
+
+
+/*Select style varible 2*/
+
+.product_meta .label-adv{
+    width: 100%;
+    display: block;
+}
+
+.product_meta .box-adv-whatsapp{
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.product_meta .select-adv-whatsapp{
+    padding: 10px 10px;
+    border-radius: 50px;
+    border: 1px solid #d9d9d9;
+    width: 280px;
+}
+
+.product_meta .btn-cotiza{
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 2px solid #3cd298;
+    background: transparent;
+    width: 280px;
+    margin-top: 20px;
+}
+
+.product_meta .btn-cotiza:hover{
+    background: rgba(213, 209, 209, 0.16);
+}
+
+.product_meta .clean-reset{
+    background: transparent;
+    border:0px;
+    font-size: 14px;
+    display: flex;
+    color: #848484;
+}
+
+.product_meta .clean-reset .icon-trash-adv{
+    background-image: url(../image/icon-delete-adv.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+
+.product_meta .inputs_options_adv{
+    display:none;
+}
+
+.product_meta .number-input-wc{
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid #b0b0b0;
+    margin-top: 30px;
+    display: block;
+    width: 240px;
+}
+
+.product_meta .number-input-wc-simple{
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid #b0b0b0;
+    margin-top: 30px;
+    display: block;
+    width: 240px;
+}
+
+
+@media only screen and (max-width: 600px) {
+ .support-product-chat .chat-whatsapp-advise{
+     width: 100%;
+ }
+}
+
